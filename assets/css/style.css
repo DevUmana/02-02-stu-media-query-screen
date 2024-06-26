@@ -14,16 +14,12 @@ header {
   color: #fff;
 }
 
-main {
-  display: flex;
-}
-
 .card {
   border-style: solid;
   border-width: 1px;
   padding: 10px;
   float: left;
-  width: 50%;
+  width: 25%;
 }
 
 .card header {
@@ -44,8 +40,8 @@ main {
     background: #691d15;
   }
 
-  main {
-    flex-wrap: wrap;
+  .card {
+    width: 50%;
   }
 }
 
@@ -55,11 +51,8 @@ main {
     background: #85b9ff;
   }
 
-  main {
-    flex-direction: column;
-  }
-
   .card {
     width: 100%;
   }
+
 }
